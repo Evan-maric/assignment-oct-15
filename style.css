@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Forum&display=swap');
+
+
+body{
+    background-color: #FFE4CE;
+    text-align:center;
+}
+
+img {
+    width: 10em;
+}
+
+.topnav{
+    display:grid;
+    grid-template-areas:
+    'drop title .';
+    text-align:center;
+    grid-gap:1em;
+    background-color:rgba(255, 255, 255, 0.863);
+    padding-bottom:.5em;
+    border-style: double;
+    border-color: #FFE4CE;
+    border-width: 1em;
+}
+
+.topnav img{
+    min-width:1.5em;
+    max-width:2.5em;
+}
+
+.grid-align{
+    grid-row-start: 1;
+    text-align:center;
+}
+
+.drop-menu{
+    margin-top:.5em;
+    margin-left:1em;
+    grid-area: drop;
+}
+
+.topnav h1{
+    grid-area:title;
+    font-family: 'forum';
+    font-size:3em;
+    margin-right:1em;
+    color: #6B98BA;
+}
+
+.titlepage{
+    color: #355168;
+    padding:2em;
+    font-size:1.5em;
+    font-family: 'Michroma';
+
+
+}
